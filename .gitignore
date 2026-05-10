@@ -1,0 +1,20 @@
+# Python junk files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Data files (ป้องกันถ้าไฟล์ใหญ่เกิน หรือไม่อยากโชว์ข้อมูลดิบ)
+# หากต้องการ upload csv ขึ้นไป ให้ใส่เครื่องหมาย # ไว้ข้างหน้าบรรทัดล่างนี้
+*.csv
+*.xlsx
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables (สำคัญมาก! เพื่อความปลอดภัย)
+.env
